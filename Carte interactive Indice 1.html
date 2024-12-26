@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4112279dd57070fdd22e14868abb0cf2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4112279dd57070fdd22e14868abb0cf2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4112279dd57070fdd22e14868abb0cf2 = L.map(
+                "map_4112279dd57070fdd22e14868abb0cf2",
+                {
+                    center: [40.768044, -73.981893],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3233a8dcf047b4b7744a39ff08eb32e7 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4112279dd57070fdd22e14868abb0cf2);
+        
+    
+            var marker_704c5477354748979c5717e4f6567f01 = L.marker(
+                [40.768044, -73.981893],
+                {}
+            ).addTo(map_4112279dd57070fdd22e14868abb0cf2);
+        
+    
+            var icon_9d7ce9aa23e382136e9a5c210aec6c83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_704c5477354748979c5717e4f6567f01.setIcon(icon_9d7ce9aa23e382136e9a5c210aec6c83);
+        
+    
+        var popup_05ec1c052da1ae7d74ae940dacd99d4d = L.popup({"maxWidth": 300});
+
+        
+            var html_b883f41c6930f72df8cbf1709fb1be5b = $(`<div id="html_b883f41c6930f72df8cbf1709fb1be5b" style="width: 100.0%; height: 100.0%;">     <div style="width: 280px; font-size: 14px; text-align: justify; line-height: 1.6; padding: 10px; border: 2px solid #8B0000; border-radius: 8px; background-color: #2c2c2c; color: white;">         <strong>The First Clue:</strong><br>         The first clue is located where the statue of Christopher Columbus was erected. <br><br>         <em>Dare to start your journey into the shadows here...</em>     </div>     </div>`)[0];
+            popup_05ec1c052da1ae7d74ae940dacd99d4d.setContent(html_b883f41c6930f72df8cbf1709fb1be5b);
+        
+
+        marker_704c5477354748979c5717e4f6567f01.bindPopup(popup_05ec1c052da1ae7d74ae940dacd99d4d)
+        ;
+
+        
+    
+    
+            var marker_fc4d26960066dd8473cbf942f28dcb35 = L.marker(
+                [40.748817, -73.985428],
+                {}
+            ).addTo(map_4112279dd57070fdd22e14868abb0cf2);
+        
+    
+            var icon_3f32a8f85932e3f094bf00faa668478e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc4d26960066dd8473cbf942f28dcb35.setIcon(icon_3f32a8f85932e3f094bf00faa668478e);
+        
+    
+        var popup_69087845b7001978885413749863d5e3 = L.popup({"maxWidth": 300});
+
+        
+            var html_17bdbb027f8062ecbe24dda1b6c8dbd7 = $(`<div id="html_17bdbb027f8062ecbe24dda1b6c8dbd7" style="width: 100.0%; height: 100.0%;">     <div style="width: 280px; font-size: 14px; text-align: justify; line-height: 1.6; padding: 10px; border: 2px solid #1E90FF; border-radius: 8px; background-color: #f0f8ff; color: black;">         <strong>Meeting Point:</strong><br>         Begin your dark tourism journey at the iconic Empire State Building. <br><br>         <em>From here, uncover the secrets hidden in NYC's shadows...</em>     </div>     </div>`)[0];
+            popup_69087845b7001978885413749863d5e3.setContent(html_17bdbb027f8062ecbe24dda1b6c8dbd7);
+        
+
+        marker_fc4d26960066dd8473cbf942f28dcb35.bindPopup(popup_69087845b7001978885413749863d5e3)
+        ;
+
+        
+    
+    
+            var marker_ea0f86ae921617fb235a13e1fb0d1384 = L.marker(
+                [40.768044, -73.981893],
+                {}
+            ).addTo(map_4112279dd57070fdd22e14868abb0cf2);
+        
+    
+            var icon_e2d88326ab6bffda9d7e613ec9ab453f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "qrcode", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ea0f86ae921617fb235a13e1fb0d1384.setIcon(icon_e2d88326ab6bffda9d7e613ec9ab453f);
+        
+    
+        var popup_b179bef5658d00958449e3bb7caf6c8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7af20c10e593cc87fe8dcafe532b1faf = $(`<div id="html_7af20c10e593cc87fe8dcafe532b1faf" style="width: 100.0%; height: 100.0%;">Scan here to reveal the first clue!</div>`)[0];
+            popup_b179bef5658d00958449e3bb7caf6c8a.setContent(html_7af20c10e593cc87fe8dcafe532b1faf);
+        
+
+        marker_ea0f86ae921617fb235a13e1fb0d1384.bindPopup(popup_b179bef5658d00958449e3bb7caf6c8a)
+        ;
+
+        
+    
+    
+            var marker_28d91e5ef5582c6b77f6b6fce6080696 = L.marker(
+                [40.768044, -73.981893],
+                {}
+            ).addTo(map_4112279dd57070fdd22e14868abb0cf2);
+        
+    
+            var icon_f99a2fa372d2545b8beedebbdd53f751 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "qrcode", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_28d91e5ef5582c6b77f6b6fce6080696.setIcon(icon_f99a2fa372d2545b8beedebbdd53f751);
+        
+    
+        var popup_fe0c68eee206aa19b031d57c50f8b764 = L.popup({"maxWidth": 300});
+
+        
+            var html_7b183da0f2317b4cc24b362a32fe98c5 = $(`<div id="html_7b183da0f2317b4cc24b362a32fe98c5" style="width: 100.0%; height: 100.0%;">     <div style="width: 280px; font-size: 14px; text-align: justify; line-height: 1.6; padding: 10px; border: 2px solid #8B0000; border-radius: 8px; background-color: #2c2c2c; color: white;">         <strong>Scan the QR Code:</strong><br>         Discover the first clue hidden at Columbus Circle. <br><br>         <em>Let the shadows guide you deeper...</em>     </div>     </div>`)[0];
+            popup_fe0c68eee206aa19b031d57c50f8b764.setContent(html_7b183da0f2317b4cc24b362a32fe98c5);
+        
+
+        marker_28d91e5ef5582c6b77f6b6fce6080696.bindPopup(popup_fe0c68eee206aa19b031d57c50f8b764)
+        ;
+
+        
+    
+</script>
+</html>
